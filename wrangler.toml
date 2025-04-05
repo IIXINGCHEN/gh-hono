@@ -1,4 +1,3 @@
-toml:wrangler.toml
 # 项目名称
 name = "github-proxy"
 
