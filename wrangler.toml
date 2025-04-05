@@ -1,0 +1,22 @@
+toml:wrangler.toml
+# 项目名称
+name = "github-proxy"
+
+# 兼容性日期
+compatibility_date = "2025-04-05"
+
+# 环境变量配置，JSON格式注入CONFIG
+[vars]
+CONFIG = '''
+{
+  "assetUrl": "https://hunshcn.github.io/gh-proxy/",
+  "prefix": "/",
+  "jsdelivrEnabled": false,
+  "allowedDomains": ["myproxy.com"]
+}
+'''
+
+# 自定义域名路由配置
+[[routes]]
+pattern = "myproxy.com/*"  # 匹配自定义域名下的所有路径
+custom_domain = true       # 启用自定义域名
