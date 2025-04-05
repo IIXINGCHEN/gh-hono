@@ -1,0 +1,8 @@
+json:package.json
+{
+  "dependencies": {
+    "hono": "^latest",
+    "@hono/cors": "^latest",
+    "uuid": "^9.0.0"
+  }
+}
