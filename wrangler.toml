@@ -8,7 +8,7 @@ compatibility_date = "2025-04-05"
 [vars]
 CONFIG = '''
 {
-  "assetUrl": "https://hunshcn.github.io/gh-proxy/",
+  "assetUrl": "https://iixingchen.github.io/",
   "prefix": "/",
   "jsdelivrEnabled": false,
   "allowedDomains": ["myproxy.com"]
